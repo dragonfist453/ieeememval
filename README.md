@@ -1,4 +1,4 @@
-# IEEE Vtools Membership Validator for Excel files
+# IEEE Vtools Membership Validator for CSV files
 
 ## Usage
 
