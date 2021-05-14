@@ -31,7 +31,7 @@ try:
     driver.find_element_by_name("pf.username").send_keys(emailID + Keys.TAB + password + Keys.ENTER)
 
     input_df = pd.read_csv(args.input)
-    input_df[['IEEENum']] = input_df[['IEEENum']].fillna(value="12345678")
+    input_df[[args.colname]] = input_df[[args.colname]].fillna(value="12345678")
     output_list = []
     errors_list = []
 
